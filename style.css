@@ -1,0 +1,47 @@
+
+@font-face {
+ font-family: "Caveat";
+ src: url("./font/Caveat-Bold.ttf") format("opentype");
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Caveat";
+    color: rgb(99, 99, 99);
+}
+.main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.main-name {
+    font-size: 72px;
+}
+.main-img {
+    width: 150px;
+}
+
+@media  (max-width: 600px) {
+.main-name {
+    font-size: 64px;
+}
+}
+
+@media  (max-width: 480px) {
+.main-name {
+    font-size: 36px;
+}
+}
